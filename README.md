@@ -13,15 +13,15 @@ PLEASE NOTE: this will probably not work if you are using JDK 17 or newer. I bel
 
 Assuming you've got that handled...
 
-How to use this:
+---  How to use this:  ---
 
-    1) compile with:  javac *.java
+1) compile with:  javac *.java
 
-    2) open 2 command line windows:
+2) open 2 command line windows:
 
-    	in one, run Receiver (ie: "java Receiver")
+    in one, run Receiver (ie: "java Receiver")
 
-    	in the other, run Sender  ("java Sender")
+    in the other, run Sender  ("java Sender")
 
 
-    The Sender program will have you create an Object, then it will send it to the Receiver program you have running, deserialize it, then visualize the content of that Object on the screen so you can verify the object is the same before and after the process.
+The Sender program will have you create an Object, then it will send it to the Receiver program you have running, deserialize it, then visualize the content of that Object on the screen so you can verify the object is the same before and after the process.
